@@ -1,0 +1,11 @@
+{
+	"aaatest": {
+		"scope": "dart",
+		"prefix": "aaa",
+		"body": [
+			"test('${1:description}', () async {\n // arrange \n ${2:arrangement} \n // act \n ${3:action} \n // assert \n ${4:assertion} \n });\n\n",
+
+		],
+		"description": "Reso Coder's AAATEST Code Snippet for his awesome tutorial on Test Driven Development in Flutter."
+	}
+}
