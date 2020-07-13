@@ -27,6 +27,13 @@
 		],
 		"description": "Insert an import statement for the Flutter Test package.",
 	},
+		"import_mockito": {
+		"scope": "dart",
+		"prefix": "mockito",
+		"body": [
+			"import 'package:mockito/mockito.dart';\n"
+		],
+	},
 	
 	
 }
