@@ -35,12 +35,13 @@
 		],
 		"description": "Insert an import statement for the Mockito package.",
 	},
-		"main": {
+	"main": {
 		"scope": "dart",
 		"prefix": "main",
 		"body": [
 			"void main() { \n\t${1:Type here...}\n}\n"
 		],
+		"description": "Insert a main function block"
 	},
 	
 	
