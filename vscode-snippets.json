@@ -33,6 +33,7 @@
 		"body": [
 			"import 'package:mockito/mockito.dart';\n"
 		],
+		"description": "Insert an import statement for the Mockito package.",
 	},
 	
 	
