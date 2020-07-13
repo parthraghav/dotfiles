@@ -19,5 +19,12 @@
 		],
 		"description": "Insert an if statement with an else block.",
 	},
+		"import_flutter_test": {
+		"scope": "dart",
+		"prefix": "flutter_test",
+		"body": [
+			"import 'package:flutter_test/flutter_test.dart';\n"
+		],
+	},
 	
 }
