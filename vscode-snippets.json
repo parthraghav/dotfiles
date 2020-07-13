@@ -7,5 +7,17 @@
 
 		],
 		"description": "Reso Coder's AAATEST Code Snippet for his awesome tutorial on Test Driven Development in Flutter."
-	}
+	},
+		"ifelse": {
+		"scope": "dart",
+		"prefix": "if",
+		"body": [
+			"if ($1) {",
+			"  $0",
+			"} else {",
+			"}"
+		],
+		"description": "Insert an if statement with an else block.",
+	},
+	
 }
