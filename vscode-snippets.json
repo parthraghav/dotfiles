@@ -44,5 +44,14 @@
 		"description": "Insert a main function block"
 	},
 	
+	"returningfunction": {
+		"scope": "dart",
+		"prefix": "fret",
+		"body": [
+			"void ${1:functionName}() { \n\treturn(\n${2:Type here...}\n);\n}\n"
+		],
+		"description": "Insert a returning function block, useful for functional components"
+	},
+	
 	
 }
