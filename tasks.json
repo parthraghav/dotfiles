@@ -1,0 +1,26 @@
+{
+  // Tasks for VS Python Environment
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Greet",
+      "type": "shell",
+      "command": "echo Hello"
+    },
+    {
+      "label": "Destroy Environment",
+      "type": "shell",
+      "command": "virtualenv deactivate"
+    },
+    {
+      "label": "Construct Environment",
+      "type": "shell",
+      "command": "source venv/bin/activate"
+    },
+    {
+      "label": "Build",
+      "type": "shell",
+      "command": "python3 -m $PROJECTNAME.main"
+    }
+  ]
+}
